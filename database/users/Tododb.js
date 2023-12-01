@@ -8,7 +8,6 @@ const connect = async (urldb) => {
 
     } catch (error) {
         console.log(error);
-        handleError(error);
     }
 }
 
