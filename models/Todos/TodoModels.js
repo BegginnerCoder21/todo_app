@@ -1,10 +1,14 @@
 const mongoose = require('mongoose');
 
 const todo_model =new mongoose.Schema({
-    todo : String,
+    todo : {
+        type : String,
+        required : true,
+    },
     author : {
         type : String,
-        uppercase : true
+        uppercase : true,
+        required  : true
     }
 });
 
