@@ -1,4 +1,4 @@
-const urldb = "mongodb://127.0.0.1:27017/Tododb"
+const urldb = "mongodb://127.0.0.1:27017/Tododb";
 const { default: mongoose } = require('mongoose');
 const connect = require('../../database/users/Tododb');
 const todo_model = require('../../models/Todos/TodoModels');
